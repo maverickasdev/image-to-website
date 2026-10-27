@@ -12,6 +12,14 @@ npx skills add maverickasdev/image-to-website
 
 Pick the agent(s) to install into when prompted. To install into the current project only, run it from the project root; add `-g` for a global install.
 
+### From npm (Claude Code)
+
+```bash
+npx image-to-website
+```
+
+Copies the skill to `.claude/skills/image-to-website/` in the current project. Add `--global` to install it to `~/.claude/skills/image-to-website/` for every project. This route targets Claude Code only; use the command above for other agents.
+
 ## Use
 
 Attach one or more screenshots and describe what you want, for example:

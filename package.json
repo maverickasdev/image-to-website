@@ -1,0 +1,35 @@
+{
+  "name": "image-to-website",
+  "version": "1.0.0",
+  "description": "Agent skill that turns screenshots or visual references into a working, tested website",
+  "keywords": [
+    "agent-skill",
+    "claude-code",
+    "skill",
+    "screenshot-to-code",
+    "image-to-website"
+  ],
+  "license": "MIT",
+  "author": "maverickasdev",
+  "homepage": "https://github.com/maverickasdev/image-to-website#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maverickasdev/image-to-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maverickasdev/image-to-website/issues"
+  },
+  "type": "module",
+  "bin": {
+    "image-to-website": "bin/cli.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
